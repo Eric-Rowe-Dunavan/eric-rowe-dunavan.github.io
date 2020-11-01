@@ -56,18 +56,18 @@ body {
 }
 
 /* Portfolio Styles */
-@media screen and (max-width:768) {
-.portfolio-items-wrapper {
-    width: 100%;
-}
-}
-
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.portfolio-item-wrapper {
+@media (max-width:768) {
+    .portfolio-items-wrapper {
+        width: 100%;
+    }
+    }
+    
+    .portfolio-item-wrapper {
     position: relative;
 }
 
