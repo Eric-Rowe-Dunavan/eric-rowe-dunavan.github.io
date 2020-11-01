@@ -61,7 +61,7 @@ body {
    grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media screen and (max-device-width: 768px) {
+@media only screen and (hover: none) and (pointer: coarse){
     .portfolio-items-wrapper {
         display: grid;
         grid-template-columns: 1fr;
