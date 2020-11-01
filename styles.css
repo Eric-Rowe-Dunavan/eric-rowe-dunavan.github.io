@@ -57,17 +57,18 @@ body {
 
 /* Portfolio Styles */
 .portfolio-items-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 768px) {
     .portfolio-items-wrapper {
-        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
     }
     }
     
-    .portfolio-item-wrapper {
+.portfolio-item-wrapper {
     position: relative;
 }
 
